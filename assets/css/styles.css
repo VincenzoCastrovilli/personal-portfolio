@@ -42,6 +42,13 @@
   margin-left: 32px;
 }
 
+.main-container {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .bio {
   border: 1px solid red; /* DEBUG */
   display: flex;
@@ -110,4 +117,21 @@
   flex-direction: column;
   width: 275px;
   overflow-wrap: break-word;
+}
+
+.footer {
+  border: 1px solid red; /* DEBUG */
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .bio,
+  .stack-container,
+  .project-container {
+    width: 95%;
+  }
 }
