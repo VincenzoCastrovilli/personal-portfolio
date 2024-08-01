@@ -5,7 +5,6 @@
 }
 
 .header {
-  border: 1px solid red; /* DEBUG */
   display: flex;
   justify-content: center;
   padding: 24px;
@@ -16,7 +15,6 @@
 }
 
 .header-container {
-  border: 1px solid red; /* DEBUG */
   width: 1200px;
   display: flex;
   justify-content: space-between;
@@ -43,31 +41,28 @@
 }
 
 .main-container {
-  border: 1px solid blue;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
+  gap: 40px;
+  padding: 40px 0;
 }
 
-.bio {
-  border: 1px solid red; /* DEBUG */
+.bio-container,
+.stack-container,
+.project-container {
   display: flex;
   flex-direction: column;
   width: 900px;
-  margin: 20px auto;
+}
+
+.bio-container {
   align-items: center;
 }
 
-.stack-container {
-  border: 1px solid red; /* DEBUG */
-  display: flex;
-  flex-direction: column;
-  width: 900px; /* Da cambiare quando si implementa il container principale */
-  margin: 0 auto; /* Forse da togliere */
-}
-
 .stack-title {
-  border: 1px solid red; /* DEBUG */
   display: flex;
   justify-content: flex-start;
 }
@@ -84,19 +79,8 @@
 
 .tech {
   display: flex;
-  border: 1px solid red; /* DEBUG */
-}
-
-.tech-logo {
-  border: 1px solid blue; /* DEBUG */
-}
-
-.project-container {
-  border: 1px solid red; /* DEBUG */
-  display: flex;
-  flex-direction: column;
-  width: 900px; /* Da cambiare quando si implementa il container principale */
-  margin: 20px auto; /* Forse da togliere */
+  gap: 10px;
+  margin-left: 10px;
 }
 
 .section-title {
@@ -105,14 +89,12 @@
 }
 
 .project-list {
-  border: 1px solid red; /* DEBUG */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .project {
-  border: 1px solid red; /* DEBUG */
   display: flex;
   flex-direction: column;
   width: 275px;
@@ -120,7 +102,6 @@
 }
 
 .footer {
-  border: 1px solid red; /* DEBUG */
   height: 40px;
   width: 100%;
   display: flex;
@@ -131,11 +112,9 @@
 /* contact.html */
 
 .social-container {
-  border: 1px solid red; /* DEBUG */
   display: flex;
   flex-direction: column;
   width: 900px;
-  margin: 20px auto;
 }
 
 .social-list {
@@ -145,16 +124,13 @@
 }
 
 .form-container {
-  border: 1px solid red; /* DEBUG */
   display: flex;
   flex-direction: column;
   width: 900px;
-  margin: 20px auto;
   gap: 20px;
 }
 
 .form {
-  border: 1px solid red; /* DEBUG */
   display: flex;
   flex-direction: column;
   max-width: 320px;
@@ -184,7 +160,7 @@ button {
 }
 
 @media (max-width: 1024px) {
-  .bio,
+  .bio-container,
   .stack-container,
   .project-container,
   .social-container,
