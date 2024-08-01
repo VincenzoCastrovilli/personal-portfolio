@@ -42,6 +42,15 @@
   margin-left: 32px;
 }
 
+.bio {
+  border: 1px solid red; /* DEBUG */
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  margin: 20px auto;
+  align-items: center;
+}
+
 .stack-container {
   border: 1px solid red; /* DEBUG */
   display: flex;
