@@ -128,10 +128,27 @@
   align-items: center;
 }
 
+/* contact.html */
+
+.social-container {
+  border: 1px solid red; /* DEBUG */
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  margin: 20px auto;
+}
+
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 @media (max-width: 1024px) {
   .bio,
   .stack-container,
-  .project-container {
+  .project-container,
+  .social-container {
     width: 95%;
   }
 }
