@@ -92,6 +92,20 @@ body {
   background-color: #2e4057;
 }
 
+.bio-title {
+  font-size: 52px;
+}
+
+.bio-desc {
+  text-align: center;
+  font-size: 20px;
+}
+
+.bio-desc > a {
+  color: #ff8334;
+  text-decoration: none;
+}
+
 .stack-container,
 .project-container {
   border-radius: 0.8rem;
