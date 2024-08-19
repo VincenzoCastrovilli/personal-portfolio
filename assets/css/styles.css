@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
 }
 
 body {
@@ -91,7 +92,8 @@ body {
   background-color: #2e4057;
 }
 
-.stack-container {
+.stack-container,
+.project-container {
   border-radius: 0.8rem;
 }
 
@@ -142,12 +144,15 @@ body {
 .section-title {
   display: flex;
   justify-content: flex-start;
+  font-size: 32px;
+  margin-bottom: 24px;
 }
 
 .project-list {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 
 .project {
@@ -155,6 +160,23 @@ body {
   flex-direction: column;
   width: 275px;
   overflow-wrap: break-word;
+  background-color: #35495e;
+  padding: 10px;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.project-img {
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 250px;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
 .footer {
