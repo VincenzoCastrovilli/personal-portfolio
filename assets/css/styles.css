@@ -94,6 +94,7 @@ body {
 
 .bio-title {
   font-size: 52px;
+  text-align: center;
 }
 
 .bio-desc {
@@ -178,6 +179,12 @@ body {
   padding: 10px;
   border-radius: 10px;
   height: fit-content;
+  transition: all 0.4s ease;
+}
+
+.project:hover {
+  transform: scale(1.03);
+  transition: all 0.1s ease;
 }
 
 .project-img {
