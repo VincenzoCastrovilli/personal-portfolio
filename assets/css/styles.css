@@ -178,7 +178,7 @@ body {
   background-color: #35495e;
   padding: 10px;
   border-radius: 10px;
-  height: fit-content;
+  min-height: 550px;
 }
 
 .project-img {
@@ -197,7 +197,7 @@ body {
 .buttons {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  margin-top: auto;
 }
 
 .project-btn {
