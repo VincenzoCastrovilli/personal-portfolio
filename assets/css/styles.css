@@ -238,6 +238,7 @@ body {
   width: 900px;
   padding: 24px;
   color: #f5f5f5;
+  align-items: center;
 }
 
 .social-title,
@@ -270,12 +271,13 @@ body {
   padding: 24px;
   color: #f5f5f5;
   margin-bottom: 20px;
+  align-items: center;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  max-width: 320px;
+  min-width: 320px;
 }
 
 input {
@@ -321,5 +323,9 @@ textarea {
 
   .logo-img {
     width: 180px;
+  }
+
+  .form {
+    min-width: 240px;
   }
 }
